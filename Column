@@ -1,0 +1,4 @@
+total_cost = (sales - profit) * (1 + 
+    IF(ship_mode = "Same Day", 0.2, 
+       IF(ship_mode = "First Class", 0.1, 
+          IF(ship_mode = "Standard Class", 0.05, 0))))
